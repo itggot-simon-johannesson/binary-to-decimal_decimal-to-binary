@@ -14,8 +14,15 @@ def decimal_to_binary()
     p decimal
   end
   i -= 1
+  p i
+  temps.length.times do
+    if 
+      binary += "0"
+    else
+      binary += "1"
+    end
 
-  
+  end
 
   # if temp > (decimal + 1)
   #   binary += "0"
